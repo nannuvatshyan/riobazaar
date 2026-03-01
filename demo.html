@@ -1,0 +1,1019 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Loans, Cards & Investments</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <header>
+    <!-- Top Utility Bar -->
+    <div class="top-bar">
+      <div class="container_min">
+        <a href="#">Talk to Expert</a>
+        <a href="#">Get The App</a>
+      </div>
+    </div>
+
+    <!-- Main Navigation Bar -->
+    <nav class="main-nav">
+      <div class="container_min">
+        <div class="logo">
+          <img class="policy_bazaar" src="./img/policy.png">
+        </div>
+        <ul class="nav-links">
+          <div class="nav">
+            <button class="nav-btn" onclick="toggleMega()">Loans ▾</button>
+
+            <div class="mega-dropdown" id="megaMenu">
+              <div class="mega-content">
+
+                <!-- Left -->
+                <div class="left-menu">
+                  <a href="#" class="active" data-tab="Personal-Loan"><span>💰</span>Personal Loan</a>
+                  <a href="#" data-tab="Business-Loan"><span>💼</span>Business Loan</a>
+                  <a href="#"><span>🏠</span>Home Loan</a>
+                  <a href="#"><span>₹</span>Other Loans</a>
+                </div>
+
+                <!-- Right -->
+                <div class="right-content" id="Personal-Loan">
+                  <div class="columns">
+
+                    <div class="column">
+                      <h4>📋 Overview</h4>
+                      <ul>
+                        <li><a href="Personal_Loan.html">Personal Loan </a></li>
+                        <li><a href="Pre_Approved_Personal_loan.html">Pre Approved Personal Loan </a></li>
+                        <li><a href="Personal_Loan_Interest_Rates.html">Personal Loan Interest Rates </a></li>
+                        <li>Personal Loan App</li>
+                        <li>Low CIBIL Score Loan</li>
+                        <li>Balance Transfer</li>
+                      </ul>
+
+                      <h4 style="margin-top:20px;">🎯 By Need</h4>
+                      <ul>
+                        <li>Medical Loan</li>
+                        <li>Travel Loan</li>
+                        <li>Debt Consolidation</li>
+                        <li>Wedding Loan</li>
+                        <li>Overdraft Loan</li>
+                        <li>Flexi Loan</li>
+                        <li>Short Term Loan</li>
+                      </ul>
+                    </div>
+
+                    <div class="column">
+                      <h4>₹ By Amount</h4>
+                      <ul>
+                        <li>5 Lakh Loan</li>
+                        <li>10 Lakh Loan</li>
+                        <li>20 Lakh Loan</li>
+                        <li>30 Lakh Loan</li>
+                        <li>40 Lakh Loan</li>
+                        <li>50 Lakh Loan</li>
+                      </ul>
+                    </div>
+
+                    <div class="column">
+                      <h4>👥 By Type</h4>
+                      <ul>
+                        <li>Loan for Salaried</li>
+                        <li>Loan for Self Employed</li>
+                        <li>Loan for Senior Citizens</li>
+                        <li>Loan for Students</li>
+                        <li>Loan for Doctors</li>
+                        <li>Loan for Women</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+          <script>
+            function toggleMega() {
+              document.getElementById("megaMenu").classList.toggle("show");
+            }
+
+            window.onclick = function (e) {
+              if (!e.target.matches('.nav-btn')) {
+                document.getElementById("megaMenu").classList.remove("show");
+              }
+            }
+          </script>
+
+
+
+
+
+
+
+
+          <div class="nav-item">
+            Credit Cards ▾
+
+            <div class="dropdown">
+              <!-- Left column -->
+              <div>
+                <h4>Overview</h4>
+                <ul>
+                  <li><a href="Credit_Card.html">Credit Card</a></li>
+                  <li><a href="Best_Credit_Cards.html">Best Credit Cards</a></li>
+                  <li>Credit Card Interest Rate</li>
+                  <li>CIBIL Score for Credit Card</li>
+                  <li>Credit Card Rewards Calculator</li>
+                  <li>Credit Card Eligibility</li>
+                  <li>Compare Credit Cards</li>
+                </ul>
+              </div>
+
+              <!-- Right column -->
+              <div>
+                <h4>By Category</h4>
+                <ul>
+                  <li>Cashback Credit Cards</li>
+                  <li>Rewards Credit Cards</li>
+                  <li>Credit Card Lounge Access</li>
+                  <li>OneCard Credit Cards</li>
+                  <li>Fuel Credit Cards</li>
+                  <li>Travel Credit Cards</li>
+                  <li>International Credit Cards</li>
+                  <li>Zero Forex Markup Credit Cards</li>
+                  <li>Secured Credit Cards</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+
+
+
+
+
+
+
+          <div class="nav-item">
+            Credit Score ▾
+
+            <div class="dropdown">
+              <ul>
+                <li class="first">
+                  <span class="icon"></span> Know Your Score
+                </li>
+                <li>Credit Score FREE</li>
+                <li>CIBIL Score Check by PAN Number</li>
+                <li>SBI CIBIL Score</li>
+                <li>How to Increase CIBIL Score</li>
+                <li>CIBIL Score for Personal Loan</li>
+                <li>How to Raise & Resolve CIBIL Dispute</li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="nav-item">
+            Investment ▾
+
+            <div class="dropdown">
+
+              <!-- Bonds Column -->
+              <div>
+                <div class="section-title">
+                  <span class="icon"></span> Bonds
+                </div>
+                <ul>
+                  <li>Bonds</li>
+                  <li>Corporate Bonds</li>
+                  <li>Government Bonds</li>
+                  <li>Tax Free Bonds</li>
+                  <li>Floating Rate Bonds</li>
+                  <li>Capital Gain Bonds</li>
+                  <li>Zero Coupon Bonds</li>
+                  <li>How to Invest in Bonds</li>
+                </ul>
+              </div>
+
+              <!-- Fixed Deposit Column -->
+              <div>
+                <div class="section-title">
+                  <span class="icon"></span> Fixed Deposit
+                </div>
+                <ul>
+                  <li>Fixed Deposit Interest Rates</li>
+                  <li>Senior Citizen FD Rates</li>
+                  <li>Loan Against Fixed Deposit</li>
+                  <li>FD vs Mutual Funds</li>
+                  <li>FD vs RD</li>
+                  <li>Post Office FD Rates</li>
+                  <li>Recurring Deposit</li>
+                </ul>
+              </div>
+
+              <!-- Mutual Funds Column -->
+              <div>
+                <div class="section-title">
+                  <span class="icon"></span> Mutual Funds
+                </div>
+                <ul>
+                  <li>Mutual Funds</li>
+                  <li>Large Cap Mutual Funds</li>
+                  <li>Mid Cap Mutual Funds</li>
+                  <li>Small Cap Mutual Funds</li>
+                  <li>ELSS Mutual Funds</li>
+                  <li>Mutual Fund Investment</li>
+                  <li>SWP Mutual Funds</li>
+                  <li>Flexi Cap Funds</li>
+                  <li>Liquid Funds</li>
+                </ul>
+              </div>
+
+            </div>
+          </div>
+          <div class="nav-item">
+            Calculators ▾
+
+            <div class="dropdown">
+
+              <!-- Investment Calculators -->
+              <div>
+                <div class="section-title">
+                  <span class="icon"></span> Investment Calculators
+                </div>
+                <ul>
+                  <li>Fixed Deposit Calculator</li>
+                  <li>GST Calculator</li>
+                  <li>Mutual Fund Calculator</li>
+                  <li>NPS Calculator</li>
+                  <li>Post Office FD Calculator</li>
+                  <li>SIP Calculator</li>
+                </ul>
+              </div>
+
+              <!-- Loan EMI Calculators -->
+              <div>
+                <div class="section-title">
+                  <span class="icon"></span> Loan EMI Calculators
+                </div>
+                <ul>
+                  <li>Personal Loan EMI Calculator</li>
+                  <li>Home Loan EMI Calculator</li>
+                  <li>Business Loan EMI Calculator</li>
+                  <li>Loan Against Property EMI Calculator</li>
+                  <li>Gold Loan EMI Calculator</li>
+                  <li>Term Loan EMI Calculator</li>
+                  <li>Tractor Loan EMI Calculator</li>
+                  <li>Mudra Loan EMI Calculator</li>
+                </ul>
+              </div>
+
+              <!-- Loan Eligibility Calculators -->
+              <div>
+                <div class="section-title">
+                  <span class="icon"></span> Loan Eligibility Calculators
+                </div>
+                <ul>
+                  <li>Personal Loan Eligibility Calculator</li>
+                  <li>Home Loan Eligibility Calculator</li>
+                  <li>Home Loan Prepayment Calculator</li>
+                  <li>Personal Loan Prepayment Calculator</li>
+                </ul>
+              </div>
+
+            </div>
+          </div>
+          <div class="nav-item">
+            Learn & Resources ▾
+
+            <div class="dropdown">
+
+              <!-- Learn Column -->
+              <div>
+                <div class="section-title">
+                  <span class="icon"></span> Learn
+                </div>
+                <ul>
+                  <li>Aadhaar Card</li>
+                  <li>PAN Card</li>
+                  <li>Debit Card</li>
+                  <li>PPF (Public Provident Fund)</li>
+                  <li>NetBanking</li>
+                  <li>EPF (Employee Provident Fund)</li>
+                  <li>Income Tax</li>
+                </ul>
+              </div>
+
+              <!-- Insurance and Investments Column -->
+              <div>
+                <div class="section-title">
+                  <span class="icon"></span> Insurance and Investments
+                </div>
+                <ul>
+                  <li>Health Insurance</li>
+                  <li>Investment Plan</li>
+                  <li>NPS (National Pension Scheme)</li>
+                  <li>Term Life Insurance</li>
+                  <li>Car Insurance</li>
+                  <li>Retirement Plans</li>
+                </ul>
+              </div>
+
+            </div>
+          </div>
+        </ul>
+        <div class="auth-btn">
+          <button class="signin-btn" onclick="openModal()">Sign In</button>
+
+          <!-- Popup -->
+          <div class="overlay" id="loginModal">
+            <div class="modal">
+              <span class="close-btn" onclick="closeModal()">✕</span>
+
+              <div class="modal-left">
+                <h3>Download the App</h3>
+                <div class="qr-box">
+                  <img class="login1" src="./img/login1.png">
+                </div>
+                <p style="margin-top:15px;">Scan QR Code</p>
+              </div>
+
+              <div class="modal-right">
+                <img class="policy_bazaar" src="./img/policy.png">
+                <h2>Login to your account</h2>
+                <select id="countryCode">
+                  <option value="+91">🇮🇳 +91</option>
+                  <option value="+1">🇺🇸 +1</option>
+                  <option value="+44">🇬🇧 +44</option>
+                  <option value="+61">🇦🇺 +61</option>
+                  <option value="+971">🇦🇪 +971</option>
+                </select>
+
+                <input type="text" class="mobile-input" placeholder="+91 Mobile Number">
+
+                <button class="otp-btn">Get OTP</button>
+                <p>
+                  By logging in, you agree to the following <br>Credit Report Terms of Use ,<br> Terms of Use and
+                  Privacy Policy
+                </p>
+              </div>
+            </div>
+
+          </div>
+
+          <script>
+            function openModal() {
+              document.getElementById("loginModal").style.display = "flex";
+            }
+
+            function closeModal() {
+              document.getElementById("loginModal").style.display = "none";
+            }
+          </script>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+
+
+
+  <div class="container">
+
+    <!-- HERO SECTION -->
+    <div class="hero">
+      <div class="hero-left">
+        <h1>India's best platform for <br /><span>Loans, Cards & Investments</span></h1>
+
+        <div class="features">
+          <div class="feature">
+            <span>💰</span>
+            <div>One Stop for all<br />Financial Solutions</div>
+          </div>
+          <div class="feature">
+            <span>⏱️</span>
+            <div>Quick, easy &<br />hassle free</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="hero-right">
+        <small>SHOP SMART, SAVE MORE</small>
+        <h2>Earn Cashback on<br />Credit Card Spends</h2>
+        <button class="apply-btn">Apply Now →</button>
+
+        <div class="cashback-badge">5%<br />CASH BACK</div>
+      </div>
+    </div>
+
+    <!-- LOANS AND CARDS SECTION -->
+    <h2 class="section-title">Loans and Cards</h2>
+
+    <div class="products">
+      <div class="product">
+        <div class="tagi">Cashback Offer</div>
+        <div class="icon">💼</div>
+        <div class="label">Personal Loan</div>
+      </div>
+
+      <div class="product">
+        <div class="taga">₹500 Cashback</div>
+        <div class="icon">💳</div>
+        <div class="label">Credit Cards</div>
+      </div>
+
+      <div class="product">
+        <div class="tagb">Cashback Offer</div>
+        <div class="icon">🏦</div>
+        <div class="label">Business Loan</div>
+      </div>
+
+      <div class="product">
+        <div class="icon">🏠</div>
+        <div class="label">Home Loan</div>
+      </div>
+
+      <div class="product">
+        <div class="icon">📋</div>
+        <div class="label">Loan Against Property</div>
+      </div>
+
+      <div class="product">
+        <div class="icon">🔁</div>
+        <div class="label">Transfer Home Loan</div>
+      </div>
+
+      <div class="product">
+        <div class="icon">⚡</div>
+        <div class="label">Instant Personal Loan</div>
+      </div>
+
+      <div class="product">
+        <div class="icon">📱</div>
+        <div class="label">UPI Credit Card</div>
+      </div>
+    </div>
+
+
+
+  </div>
+
+
+
+
+  <!-- CREDIT SCORE & BILL PAYMENTS -->
+  <h2 class="section-title">Credit Score & Bill Payments</h2>
+
+
+  <div class="products">
+    <div class="product">
+      <div class="icon">📊</div>
+      <div class="label">Credit Score</div>
+    </div>
+    <div class="product">
+      <div class="icon">🩺</div>
+      <div class="label">Credit Health Pro</div>
+    </div>
+    <div class="product">
+      <div class="icon">🎥</div>
+      <div class="label">Video Credit Report</div>
+    </div>
+    <div class="product">
+      <div class="icon">💰</div>
+      <div class="label">PB Money</div>
+    </div>
+    <div class="product">
+      <div class="icon">💳</div>
+      <div class="label">Credit Card Bill</div>
+    </div>
+    <div class="product">
+      <div class="icon">🚧</div>
+      <div class="label">FASTag Recharge</div>
+    </div>
+    <div class="product">
+      <div class="icon">📱</div>
+      <div class="label">Mobile Recharge</div>
+    </div>
+    <div class="product">
+      <div class="icon">➡️</div>
+      <div class="label">Explore More</div>
+    </div>
+  </div>
+
+
+  <div class="section">
+
+
+
+    <div class="container">
+      <h2>Investment & Insurance Products</h2>
+
+      <div class="products">
+
+        <!-- Bonds -->
+        <div class="product">
+          <div class="tagc">Invest & Earn</div>
+          <div class="icon-box">📈</div>
+          <div class="title">Bonds</div>
+        </div>
+
+        <!-- Fixed Deposits -->
+        <div class="product">
+          <div class="tagd">Newly Launched</div>
+          <div class="icon-box">🏦</div>
+          <div class="title">Fixed Deposits</div>
+        </div>
+
+
+
+        <!-- Market Linked Plans -->
+        <div class="product">
+          <div class="icon-box">📊</div>
+          <div class="title">Market Linked Plans</div>
+        </div>
+
+        <!-- National Pension Scheme -->
+        <div class="product">
+          <div class="icon-box">🪙</div>
+          <div class="title">National Pension Scheme</div>
+        </div>
+
+        <!-- Health Insurance -->
+        <div class="product">
+          <div class="tage">Upto 25% Discount</div>
+          <div class="icon-box">❤️</div>
+          <div class="title">Health Insurance</div>
+        </div>
+
+        <!-- Term Life Insurance -->
+        <div class="product">
+          <div class="tagf">Upto 15% Discount</div>
+          <div class="icon-box">☂️</div>
+          <div class="title">Term Life Insurance</div>
+        </div>
+
+        <!-- Car Insurance -->
+        <div class="product">
+          <div class="tagg">Lowest Price</div>
+          <div class="icon-box">🚗</div>
+          <div class="title">Car Insurance</div>
+        </div>
+
+        <!-- All Insurance Products -->
+        <div class="product">
+          <div class="icon-box">🧩</div>
+          <div class="title">All Insurance Products</div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+
+  <div style="font-family: sans-serif; max-width: 800px; margin: 0 auto; border: 1px solid #ddd; padding: 20px;">
+    <div style="display: flex; gap: 40px; align-items: center;">
+      <!-- Left Side: App Screenshots (Represented by placeholders) -->
+      <div style="flex: 1; display: flex; align-items: flex-end; gap: 10px;">
+        <div style="width: 100px; height: 200px; background: #f0f0f0; border: 2px solid #333; border-radius: 10px;">
+        </div>
+        <div
+          style="width: 120px; height: 240px; background: #333; border: 2px solid #000; border-radius: 15px; display: flex; flex-direction: column; align-items: center; justify-content: center; color: white; text-align: center; padding: 10px;">
+          <p style="font-size: 10px; margin: 0;">EXCLUSIVE OFFER</p>
+          <p style="font-size: 12px; font-weight: bold;">Pre-Approved Instant Personal Loan up to</p>
+          <h2 style="color: gold; margin: 5px 0;">₹5,00,000</h2>
+          <button
+            style="background: white; border: none; padding: 5px 15px; border-radius: 5px; font-size: 10px; font-weight: bold;">Apply
+            Now ></button>
+        </div>
+        <div style="width: 100px; height: 200px; background: #f0f0f0; border: 2px solid #333; border-radius: 10px;">
+        </div>
+      </div>
+
+      <!-- Right Side: Content -->
+      <div style="flex: 1.2;">
+        <h1 style="font-size: 24px; color: #333;">Get the Paisabazaar App</h1>
+
+        <ul style="list-style: none; padding: 0; margin: 20px 0;">
+          <li style="margin-bottom: 15px; display: flex; align-items: center; gap: 10px;">
+            <span style="font-size: 20px;">🌈</span>
+            <span>Get Credit Score worth ₹1200 absolutely <strong>FREE</strong></span>
+          </li>
+          <li style="margin-bottom: 15px; display: flex; align-items: center; gap: 10px;">
+            <span style="font-size: 20px;">📋</span>
+            <span>Access to <strong>Exclusive Pre-Approved</strong> offers based on your profile</span>
+          </li>
+          <li style="margin-bottom: 15px; display: flex; align-items: center; gap: 10px;">
+            <span style="font-size: 20px;">✔️</span>
+            <span><strong>Highest Chances of Approval</strong> every time you apply for a <strong>Loan & Credit
+                Card</strong></span>
+          </li>
+          <li style="margin-bottom: 15px; display: flex; align-items: center; gap: 10px;">
+            <span style="font-size: 20px;">🎁</span>
+            <span>Get <strong>ASSURED REWARDS</strong> on every transaction</span>
+          </li>
+        </ul>
+
+        <div style="display: flex; align-items: center; gap: 20px;">
+          <!-- QR Code Placeholder -->
+          <div
+            style="width: 100px; height: 100px; border: 1px solid #ccc; background: repeating-conic-gradient(#fff 0% 25%, #000 0% 50%) 50% / 10px 10px;">
+          </div>
+
+          <div
+            style="border-left: 1px dashed #ccc; height: 100px; padding: 0 10px; display: flex; align-items: center;">OR
+          </div>
+
+          <div style="display: flex; flex-direction: column; gap: 10px;">
+            <a href="#"><img class="play_store" src="./img/play_store.jpg" width="120"></a>
+            <a href="#"><img class="app_store" src="./img/app_store.jpg" width="120"></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+
+  <div class="container_max">
+    <header>
+      <h1>Keeping You Financially Healthy And Safe, Always</h1>
+    </header>
+
+    <main class="card-section">
+      <div class="card card-made-in-india">
+        <div class="card-content">
+          <!-- Placeholder for the "MADE IN INDIA" graphic -->
+          <div class="india-graphic">
+            <img class="make_in_india" src="./img/india.png">
+
+
+          </div>
+          <h2>MAKE IN INDIA</h2>
+          <p>Proudly made in India, for Indians around the world</p>
+        </div>
+      </div>
+
+      <div class="card card-rewards">
+        <div class="card-content">
+          <!-- Placeholder for calculator icon -->
+          <div class="icon-placeholder">
+            <img class="earn_reward" src="./img/earn reward.webp">
+          </div>
+          <h2>Calculate Reward Earnings</h2>
+
+          <p>on Your Credit Card</p>
+          <a href="#">Check Now</a>
+        </div>
+
+      </div>
+
+      <div class="card card-fraud">
+        <div class="card-content">
+          <!-- Placeholder for hacker icon -->
+          <div class="icon-placeholder">
+            <img class="beware_scam" src="./img/scam.jpg">
+          </div>
+          <h2>Beware from Fraudsters</h2>
+          <a href="#">Check Fraud Detection</a>
+        </div>
+      </div>
+    </main>
+
+    <section class="search-section">
+      <div class="search-bar">
+        <p>Search Credit Card by Category</p>
+        <a href="#">Category</a>
+        <!-- Placeholder for search icon -->
+        <span class="search-icon">🔍</span>
+      </div>
+    </section>
+  </div>
+
+  <h3 align="center"> Tailor Made Product Exclusively <br> For Paisabazaar Customers</h3>
+
+  <div class="container_men">
+    <div class="card-image">
+      <!-- Placeholder for the credit card image -->
+      <img class="yes_bank" src="./img/yes_bank.webp">
+    </div>
+    <div class="content">
+      <h2>Yes Bank Paisabazaar PaisaSave Credit Card</h2>
+      <div>
+        <ul>
+          <li><span class="icon">✔</span> 6% cashback on dining & travel spends</li>
+          <li><span class="icon">✔</span> Unlimited 1% cashback on other categories</li>
+          <li><span class="icon">✔</span> First Year Free</li>
+        </ul>
+        <a href="#" class="know-more">Know More &rarr;</a>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="container_men">
+    <div class="card-images">
+      <!-- Placeholder for the credit card image -->
+      <img class="rbl" src="./img/rbl.webp">
+    </div>
+    <div class="content">
+      <h2>RBL Bank Paisabazaar DUET Credit Card</h2>
+      <ul>
+        <li><span class="icons">✔</span> 1% cash back on eligible purchases</li>
+        <li><span class="icons">✔</span> Credit Card + Cash*</li>
+        <li><span class="icons">✔</span> Lifetime Free Card</li>
+      </ul>
+      <a href="#" class="know-more">Know More &rarr;</a>
+    </div>
+  </div>
+
+
+  <section style="font-family: Arial, sans-serif; padding: 40px; display: flex; gap: 40px; align-items: flex-start;">
+    <!-- Left Column -->
+    <div style="flex: 1;">
+      <h2 style="font-size: 24px; color: #333; margin-bottom: 20px; line-height: 1.3;">
+        Compare, Choose and Apply for personal credit products on Paisabazaar
+      </h2>
+      <a href="#"
+        style="display: inline-block; padding: 10px 25px; border: 1px solid #0056b3; color: #0056b3; text-decoration: none; font-weight: bold; font-size: 14px; border-radius: 4px;">
+        READ MORE
+      </a>
+    </div>
+
+    <!-- Center Column -->
+    <div style="flex: 1;">
+      <div style="margin-bottom: 15px;">
+        <img class="wide_choice" src="./img/wide_choice.webp">
+      </div>
+      <h3 style="font-size: 20px; color: #333; margin-bottom: 15px;">Wide Choice</h3>
+      <p style="font-size: 14px; color: #666; line-height: 1.6;">
+        We have partnerships with large banks, NBFCs and fintech lenders who offer a wide choice of products on our
+        platform
+      </p>
+    </div>
+
+    <!-- Right Column -->
+    <div style="flex: 1;">
+      <div style="margin-bottom: 15px;">
+        <img class="easy_access" src="./img/easy_access.jpg">
+      </div>
+      <h3 style="font-size: 20px; color: #333; margin-bottom: 15px;">Easy Access to Credit</h3>
+      <p style="font-size: 14px; color: #666; line-height: 1.6;">
+        Our algorithm-based technology provides access to multiple credit offers, ease of comparison and unbiased advice
+      </p>
+    </div>
+  </section>
+  </div>
+  <div style="display: flex; font-family: sans-serif; gap: 40px; padding: 20px;">
+    <!-- Safe & Secure Section -->
+    <div style="flex: 1; text-align: right;">
+      <div style="margin-bottom: 15px;">
+        <!-- Icon Placeholder -->
+        <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="#d63384" stroke-width="2"
+          stroke-linecap="round" stroke-linejoin="round">
+          <rect x="3" y="11" width="18" height="11" rx="2" ry="2"></rect>
+          <path d="M7 11V7a5 5 0 0 1 10 0v4"></path>
+        </svg>
+      </div>
+      <h2 style="font-size: 20px; font-weight: bold; margin-bottom: 10px; color: #333;">Safe & Secure</h2>
+      <p style="font-size: 14px; line-height: 1.6; color: #666;">
+        Your data is completely safe with us.<br>We are<a href="#"
+          style="color: #007bff; text-decoration: none;">ISO/IEC 27001:2022 certified</a> <br>& have built industry-best
+        controls<br> to keep your information secure.
+
+      </p>
+    </div>
+
+    <!-- Customer First Section -->
+    <div style="flex: 1; text-align: center;">
+      <div style="margin-bottom: 15px;">
+        <!-- Icon Placeholder -->
+        <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="#d63384" stroke-width="2"
+          stroke-linecap="round" stroke-linejoin="round">
+          <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"></path>
+        </svg>
+      </div>
+      <h2 style="font-size: 20px; font-weight: bold; margin-bottom: 10px; color: #333;">Customer First</h2>
+      <p style="font-size: 14px; line-height: 1.6; color: #666;">
+        We have a dedicated and highly<br>team of experts who<br>work hard every day to help you<br>take the best
+        financial decisions.
+      </p>
+    </div>
+  </div>
+
+
+  <div class="about_us_section" style="display: flex; gap: 30px; ; justify-content:center;">
+    <div class="about_us_section1"
+      style="background: linear-gradient(to bottom, #7cd6ff, #29ff1e); width: 400px; height: 300px; border-radius: 15px; font-family: sans-serif; position: relative; padding: 20px; display: flex; flex-direction: column; align-items: center; justify-content: flex-end; text-align: center; color: #004a7c;">
+      <div style="flex-grow: 1;">
+        <!-- Placeholder for the illustration -->
+        <img class="about_us" src="./img/abou us.jpg" style="max-width: 100%; height: 60px;">
+      </div>
+
+      <h2 style="font-size: 32px; margin-bottom: 10px;">About Us</h2>
+      <p style="font-size: 16px; margin-bottom: 40px; color: #3e00a2;">How we are building a strong Paisabazaar Brand
+      </p>
+
+      <a href="#"
+        style="background-color: white; color: #5100ff; text-decoration: none; padding: 15px 30px; border-radius: 5px; font-weight: bold; display: flex; align-items: center; box-shadow: 0 4px 10px rgba(0,0,0,0.1); margin-bottom: 0px;">
+        KNOW MORE <span style="margin-left: 10px;">&gt;</span>
+      </a>
+    </div>
+    <!-- Right Column -->
+
+    <div class="about_us_section1"
+      style="background: linear-gradient(to bottom, #7cd6ff, #29ff1e); width: 400px; height: 300px; border-radius: 15px; font-family: sans-serif; position: relative; padding: 20px; display: flex; flex-direction: column; align-items: center; justify-content: flex-end; text-align: center; color: #004a7c;">
+      <div style="flex-grow: 1;">
+        <!-- Placeholder for the illustration -->
+        <img class="work_with_us" src="./img/work with us.png" style="max-width: 100%; height: 60px;">
+      </div>
+
+      <h2 style="font-size: 32px; margin-bottom: 10px;">Work with Us</h2>
+      <p style="font-size: 16px; margin-bottom: 40px; color: #3e00a2;">Want to Join Team Paisabazaar?
+      </p>
+
+      <a href="#"
+        style="background-color: white; color: #5100ff; text-decoration: none; padding: 15px 30px; border-radius: 5px; font-weight: bold; display: flex; align-items: center; box-shadow: 0 4px 10px rgba(0,0,0,0.1); margin-bottom: 0px;">
+        JOIN US <span style="margin-left: 10px;">&gt;</span>
+      </a>
+    </div>
+  </div>
+
+
+  <section class="partners-section">
+    <h2 class="partners-title">
+      Our partners from<br />across the industry
+    </h2>
+
+    <div class="filters">
+      <button class="filter-btn active">All</button>
+      <button class="filter-btn">Unsecured Loans</button>
+      <button class="filter-btn">Credit Card</button>
+      <button class="filter-btn">Home Loan</button>
+      <button class="filter-btn">Credit Bureau</button>
+      <button class="filter-btn">Credit Improvement</button>
+    </div>
+
+    <div class="logos-grid">
+      <div class="logo-card">
+        <img class="american" src="./img/american_express.png">
+      </div>
+      <div class="logo-card">
+        <img class="axis" src="./img/axis bank.webp">
+      </div>
+      <div class="logo-card">
+        <img class="au" src="./img/au.png">
+      </div>
+      <div class="logo-card">
+        <img class="credit_saison" src="./img/credit_saison.png">
+      </div>
+      <div class="logo-card">
+        <img class="hdfc" src="./img/hdfc.webp">
+      </div>
+      <div class="logo-card">
+        <img class="home_credit" src="./img/home_credit.webp">
+      </div>
+      <div class="logo-card">
+        <img class="icici" src="./img/icici.png">
+      </div>
+      <div class="logo-card">
+        <img class="idbi" src="./img/idbi.webp">
+      </div>
+      <div class="logo-card">
+        <img class="idfc" src="./img/idfc.jpg">
+      </div>
+      <div class="logo-card">
+        <img class="india_shelter" src="./img/india_shelter.png">
+      </div>
+      <div class="logo-card">
+        <img class="india" src="./img/india.png">
+      </div>
+      <div class="logo-card">
+        <img class="indiabulls" src="./img/indiabulls'.png">
+      </div>
+      <div class="logo-card">
+        <img class="jio" src="./img/jio.jpg">
+      </div>
+      <div class="logo-card">
+        <img class="kotak" src="./img/kotak.webp">
+      </div>
+      <div class="logo-card">
+        <img class="i&l" src="./img/l&t_finance.webp">
+      </div>
+      <div class="logo-card">
+        <img class="piramal" src="./img/piramal.webp">
+      </div>
+      <div class="logo-card">
+        <img class="pnb" src="./img/pnb.jpg">
+      </div>
+      <div class="logo-card">
+        <img class="rbl_bank" src="./img/rbl_bank.webp">
+      </div>
+      <div class="logo-card">
+        <img class="sammaan" src="./img/sammaan.png">
+      </div>
+      <div class="logo-card">
+        <img class="sbi" src="./img/sbi.webp">
+      </div>
+      <div class="logo-card">
+        <img class="tata_capital" src="./img/tata_capital.jpg">
+      </div>
+      <div class="logo-card">
+        <img class="tvs_capital" src="./img/tvs_credit.png">
+      </div>
+      <div class="logo-card">
+        <img class="uco" src="./img/uco.webp">
+      </div>
+      <div class="logo-card">
+        <img class="yes_bank" src="./img/yes_bank.png">
+      </div>
+      <div class="logo-card">
+        <img class="central_bank" src="./img/central_bank.webp">
+      </div>
+      <div class="logo-card">
+        <img class="canara" src="./img/canara.png">
+      </div>
+      <div class="logo-card">
+        <img class="baroda" src="./img/baroda.webp">
+      </div>
+      <div class="logo-card">
+        <img class="bandhan" src="./img/bandhan.jpg">
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+
+    <!-- Investors Section -->
+    <div class="investors">
+      <h3>OUR INVESTORS</h3>
+      <div class="investor-logos">
+        <div>Tiger Global</div>
+        <div>Info Edge</div>
+        <div>Truenorth</div>
+        <div>Steadview</div>
+        <div>Inventus</div>
+        <div>SoftBank</div>
+        <div>Premji Invest</div>
+        <div>Temasek</div>
+      </div>
+    </div>
+
+    <!-- Footer Main Content -->
+    <div class="footer-content">
+
+      <div class="footer-column">
+        <div class="logo">paisabazaar</div>
+        <div class="tagline">HAR SAPNA HOGA SACH</div>
+      </div>
+
+      <div class="footer-column">
+        <h4>PAISABAZAAR</h4>
+        <ul>
+          <li>About</li>
+          <li>Careers</li>
+          <li>Awards</li>
+          <li>Contact Us</li>
+          <li>Grievance Redressal</li>
+          <li>Other Disclosures</li>
+        </ul>
+      </div>
+
+      <div class="footer-column">
+        <h4>GROUP BRANDS</h4>
+        <ul>
+          <li>Policybazaar.com</li>
+          <li>Quickfixcars.com</li>
+          <li>Policybazaar.ae</li>
+          <li>Docprime.com</li>
+          <li>PB Partners</li>
+          <li>MoneyWide</li>
+          <li>Pensionbazaar.com</li>
+          <li>Paisabazaar.ae</li>
+        </ul>
+      </div>
+
+      <div class="footer-column app-links">
+        <h4>DOWNLOAD APP</h4>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/7/78/Google_Play_Store_badge_EN.svg" alt="Google Play">
+        <img src="https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg" alt="App Store">
+      </div>
+
+    </div>
+  </footer>
+
+
+
+
+
+
+
+
+
+</body>
+
+</html>

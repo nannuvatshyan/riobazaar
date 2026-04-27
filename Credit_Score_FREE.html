@@ -1,0 +1,1698 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Credit Score -Check Your CIBIL Score for FREE</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <nav class="main-nav">
+            <div class="container_min">
+                <div class="logo">
+                    <img class="policy_bazaar" src="./img/policy.png">
+                </div>
+                <div class="auth-btn">
+                    <button class="signin-btn" onclick="openModal()">Sign In</button>
+
+                    <!-- Popup -->
+                    <div class="overlay" id="loginModal">
+                        <div class="modal">
+                            <span class="close-btn" onclick="closeModal()">✕</span>
+
+                            <div class="modal-left">
+                                <h3>Download the App</h3>
+                                <div class="qr-box">
+                                    <img class="login1" src="./img/login1.png">
+                                </div>
+                                <p style="margin-top:15px;">Scan QR Code</p>
+                            </div>
+                            <div class="container12">
+
+                                <!-- Login Form -->
+                                <div id="loginForm">
+                                    <h2>Login to your account</h2>
+                                    <select id="countryCode">
+                                        <option value="+93">Afghanistan (+93)</option>
+                                        <option value="+355">Albania (+355)</option>
+                                        <option value="+213">Algeria (+213)</option>
+                                        <option value="+376">Andorra (+376)</option>
+                                        <option value="+244">Angola (+244)</option>
+                                        <option value="+54">Argentina (+54)</option>
+                                        <option value="+374">Armenia (+374)</option>
+                                        <option value="+61">Australia (+61)</option>
+                                        <option value="+43">Austria (+43)</option>
+                                        <option value="+994">Azerbaijan (+994)</option>
+
+                                        <option value="+973">Bahrain (+973)</option>
+                                        <option value="+880">Bangladesh (+880)</option>
+                                        <option value="+375">Belarus (+375)</option>
+                                        <option value="+32">Belgium (+32)</option>
+                                        <option value="+975">Bhutan (+975)</option>
+                                        <option value="+591">Bolivia (+591)</option>
+                                        <option value="+387">Bosnia (+387)</option>
+                                        <option value="+267">Botswana (+267)</option>
+                                        <option value="+55">Brazil (+55)</option>
+                                        <option value="+673">Brunei (+673)</option>
+                                        <option value="+359">Bulgaria (+359)</option>
+
+                                        <option value="+855">Cambodia (+855)</option>
+                                        <option value="+237">Cameroon (+237)</option>
+                                        <option value="+1">Canada (+1)</option>
+                                        <option value="+56">Chile (+56)</option>
+                                        <option value="+86">China (+86)</option>
+                                        <option value="+57">Colombia (+57)</option>
+                                        <option value="+506">Costa Rica (+506)</option>
+                                        <option value="+385">Croatia (+385)</option>
+                                        <option value="+53">Cuba (+53)</option>
+                                        <option value="+420">Czech Republic (+420)</option>
+
+                                        <option value="+45">Denmark (+45)</option>
+                                        <option value="+20">Egypt (+20)</option>
+                                        <option value="+372">Estonia (+372)</option>
+                                        <option value="+251">Ethiopia (+251)</option>
+
+                                        <option value="+358">Finland (+358)</option>
+                                        <option value="+33">France (+33)</option>
+
+                                        <option value="+49">Germany (+49)</option>
+                                        <option value="+30">Greece (+30)</option>
+
+                                        <option value="+852">Hong Kong (+852)</option>
+                                        <option value="+36">Hungary (+36)</option>
+
+                                        <option value="+91">India (+91)</option>
+                                        <option value="+62">Indonesia (+62)</option>
+                                        <option value="+98">Iran (+98)</option>
+                                        <option value="+964">Iraq (+964)</option>
+                                        <option value="+353">Ireland (+353)</option>
+                                        <option value="+972">Israel (+972)</option>
+                                        <option value="+39">Italy (+39)</option>
+
+                                        <option value="+81">Japan (+81)</option>
+                                        <option value="+962">Jordan (+962)</option>
+
+                                        <option value="+7">Kazakhstan (+7)</option>
+                                        <option value="+254">Kenya (+254)</option>
+                                        <option value="+965">Kuwait (+965)</option>
+
+                                        <option value="+977">Nepal (+977)</option>
+                                        <option value="+31">Netherlands (+31)</option>
+                                        <option value="+64">New Zealand (+64)</option>
+                                        <option value="+234">Nigeria (+234)</option>
+                                        <option value="+47">Norway (+47)</option>
+
+                                        <option value="+968">Oman (+968)</option>
+
+                                        <option value="+92">Pakistan (+92)</option>
+                                        <option value="+63">Philippines (+63)</option>
+                                        <option value="+48">Poland (+48)</option>
+                                        <option value="+351">Portugal (+351)</option>
+
+                                        <option value="+974">Qatar (+974)</option>
+
+                                        <option value="+40">Romania (+40)</option>
+                                        <option value="+7">Russia (+7)</option>
+
+                                        <option value="+966">Saudi Arabia (+966)</option>
+                                        <option value="+65">Singapore (+65)</option>
+                                        <option value="+27">South Africa (+27)</option>
+                                        <option value="+82">South Korea (+82)</option>
+                                        <option value="+34">Spain (+34)</option>
+                                        <option value="+94">Sri Lanka (+94)</option>
+                                        <option value="+46">Sweden (+46)</option>
+                                        <option value="+41">Switzerland (+41)</option>
+
+                                        <option value="+66">Thailand (+66)</option>
+                                        <option value="+90">Turkey (+90)</option>
+
+                                        <option value="+971">UAE (+971)</option>
+                                        <option value="+44">UK (+44)</option>
+                                        <option value="+1">USA (+1)</option>
+
+                                        <option value="+84">Vietnam (+84)</option>
+                                    </select>
+                                    <input type="text" class="mobile-input" placeholder=" Mobile Number">
+                                    <button class="otp-btn">Get OTP</button>
+                                    <div class="toggle-btn" onclick="showRegister()">Don't have an account? Register
+                                    </div>
+                                </div>
+
+
+                                <!-- Register Form -->
+                                <div id="registerForm" class="hidden">
+                                    <h2>Register</h2>
+                                    <input type="text" placeholder="Full Name" required>
+                                    <input type="email" placeholder="Email" required>
+                                    <input type="password" placeholder="Password" required>
+                                    <button class="otp-btn">Register</button>
+                                    <div class="toggle-btn" onclick="showLogin()">Already have an account? Login</div>
+                                </div>
+
+                            </div>
+
+                            <script>
+                                function showRegister() {
+                                    document.getElementById("loginForm").classList.add("hidden");
+                                    document.getElementById("registerForm").classList.remove("hidden");
+                                }
+
+                                function showLogin() {
+                                    document.getElementById("registerForm").classList.add("hidden");
+                                    document.getElementById("loginForm").classList.remove("hidden");
+                                }
+                            </script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+                        </div>
+                    </div>
+
+                </div>
+
+                <script>
+                    function openModal() {
+                        document.getElementById("loginModal").style.display = "flex";
+                    }
+
+                    function closeModal() {
+                        document.getElementById("loginModal").style.display = "none";
+                    }
+                </script>
+            </div>
+
+            </div>
+        </nav>
+    </header>
+    <div class="container1">
+
+        <div class="grid1">
+
+            <!-- LEFT COLUMN -->
+            <div class="left1">
+                <h1>Check Free Credit Score & CIBIL Report</h1>
+                <p class="text1">
+                    Compare your credit score across all 4 credit bureaus, including CIBIL, only on Paisabazaar. Get
+                    your free credit score instantly
+                    <span class="dots">...</span>
+                    <span class="more-text1">
+                        with monthly updates and take steps to become credit healthy....
+                    </span>
+                    <a class="read-more" onclick="toggleReadMore()">Read more</a>
+                </p>
+
+                <script>
+                    function toggleReadMore() {
+                        const dots = document.querySelector(".dots");
+                        const moreText = document.querySelector(".more-text1");
+                        const btnText = document.querySelector(".read-more");
+
+                        if (dots.style.display === "none") {
+                            dots.style.display = "inline";
+                            btnText.innerHTML = "Read more";
+                            moreText.style.display = "none";
+                        } else {
+                            dots.style.display = "none";
+                            btnText.innerHTML = "Read less";
+                            moreText.style.display = "inline";
+                        }
+                    }
+                </script>
+                <h3><br>Why Choose Paisabazaar ?</h3>
+
+                <div class="features1">
+                    <div class="feature1">
+                        <h3>✔ Check Credit Score from All 4 Bureaus</h3>
+                        </span>
+
+                    </div>
+
+                    <div class="feature1">
+
+                        <span>
+                            <h3>✔ Track Credit Score Seamlessly Every Month</h3>
+                        </span>
+                    </div>
+
+                    <div class="feature1">
+
+                        <span>
+                            <h3>✔ Read Credit Report in Multiple Languages</h3>
+                        </span>
+                    </div>
+                </div>
+
+                <div class="stats">
+                    <div>
+                        <h2>5.7Cr+</h2>
+                        <p>Satisfied Customers</p>
+                    </div>
+                    <div>
+                        <h2>4</h2>
+                        <p>Bureau Coverage</p>
+                    </div>
+                    <div>
+                        <h2>800+</h2>
+                        <p>Cities across India</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- RIGHT COLUMN -->
+            <div class="form-box">
+                <div class="offer1">
+                    <img src="https://cdn-icons-png.flaticon.com/512/891/891462.png" alt="Wallet">
+                    <div>
+                        <strong>Check Free Credit Score & Win up to ₹1 lakh</strong>
+                    </div>
+                </div>
+
+
+                <div class="heading">
+                    Let’s Get Started
+                </div>
+                <input type="tel" placeholder="Mobile Number">
+                <div class="title2">Your will receive an OTP on mentioned number</div>
+
+                <button class="btn">Get Free Credit Score→</button>
+
+                <p class="terms">
+                    By submitting this form, you agree to the
+                    <a href="#">Credit Report Terms of Use</a>,
+                    <a href="#">Terms of Use</a> &
+                    <a href="#">Privacy Policy</a>
+                </p>
+            </div>
+
+
+        </div>
+
+        <div class="container4">
+
+
+            <!-- Left Expert Section -->
+            <div class="expert-card">
+
+
+                <h2>What is Credit Score?</h2>
+
+                <p>
+                    Credit Score is a 3-digit numeric summary of your credit history, that represents your
+                    creditworthiness. Credit Score is commonly known as CIBIL Score (provided by TransUnion CIBIL), and
+                    ranges between 300 and 900. Your Credit Score is a measure of your ability to borrow from Banks and
+                    NBFCs, determined by your past credit behaviour.
+                </p>
+                <br>
+                <li class="criteria-item">
+                    <span class="check-icon">✓</span>
+                    <span class="criteria-text">
+                        CIBIL is one of the 4 Credit Bureaus or <a href="#"> Credit Information Companies (CICs)</a> in
+                        India that
+                        calculates and maintains your Credit Score.
+                    </span>
+                </li>
+                <li class="criteria-item">
+                    <span class="check-icon">✓</span>
+                    <span class="criteria-text">
+                        Your Credit Score is based on the information provided by lenders. It includes payment of EMIs,
+                        Credit Card bills, new applications etc.
+                    </span>
+                </li>
+                <li class="criteria-item">
+                    <span class="check-icon">✓</span>
+                    <span class="criteria-text">
+                        To ensure bureaus have your latest credit information, RBI has mandated all lenders to report
+                        the updated credit information to all bureaus every 15 days.
+                    </span>
+                </li>
+
+
+            </div>
+
+            <!-- Right Steps Section -->
+            <div class="steps-card">
+                <div class="video-box">
+                    <div class="video-wrapper">
+                        <!-- YouTube Embed -->
+                        <iframe src=https://youtu.be/P4yKtDeuxHo
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen>
+                        </iframe>
+                    </div>
+                </div>
+
+
+
+
+
+            </div>
+
+
+
+        </div>
+        <section class="steps-section">
+            <h2>How to Check Credit Score for Free with Paisabazaar?</h2>
+            <p class="subtitle1">
+                You can check your latest updated CIBIL score, along with credit scores from other bureaus, on
+                Paisabazaar for free. Follow the steps given below to seamlessly track your score every month:
+            </p>
+
+            <div class="steps-container">
+
+                <!-- Step 1 -->
+                <div class="step-box">
+                    <span class="step-number">1</span>
+                    <h3>Enter Your Details</h3>
+                    <p>
+                        Go to the <a href="#">‘Credit Score form’</a> fill in your mobile number and other details, and
+                        click on ‘Get Free Credit Report’.
+                    </p>
+                </div>
+
+                <!-- Step 2 -->
+                <div class="step-box">
+                    <span class="step-number">2</span>
+                    <h3>Verify Your Mobile Number</h3>
+                    <p>
+                        Complete the OTP verification of your mobile number to receive your credit score from multiple
+                        credit bureaus, including CIBIL.
+                    </p>
+                </div>
+
+                <!-- Step 3 -->
+                <div class="step-box">
+                    <span class="step-number">3</span>
+                    <h3>Track Your Credit Score</h3>
+                    <p>
+                        Your Paisabazaar account will be created, and your credit score will be updated every month to
+                        help you monitor your credit health.
+                    </p>
+                </div>
+
+
+
+            </div>
+
+
+        </section>
+        <button class="btn">Get Free Credit Score→</button>
+        <li>
+            <p class="intro2"><br>Note: Your credit score is not impacted when you check it on Paisabazaar or through
+                any credit bureau’s platform directly.
+            </p>
+        </li>
+        <div class="wrapper3">
+            <h1>Compare your Credit Report across 4 Bureau(s)</h1>
+            <br>
+            <div class="badge1">◆ Exclusively on Paisabazaar ◆</div>
+            <div class="card9">
+                <table>
+                    <tr>
+                        <td class="left4">
+                            Bureau
+                            <span class="sub1">Last Refresh Date</span>
+                        </td>
+                        <td>
+                            <span class="logo2">CIBIL</span>
+                            <span class="date1">20 Mar '26</span>
+                        </td>
+                        <td>
+                            <span class="logo2">Experian</span>
+                            <span class="date1">20 Mar '26</span>
+                        </td>
+                        <td>
+                            <span class="logo2">Equifax</span>
+                            <span class="date1">20 Mar '26</span>
+                        </td>
+                        <td>
+                            <span class="logo2">CRIF</span>
+                            <span class="date1">20 Mar '26</span>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td class="left4">Score</td>
+                        <td class="score">809</td>
+                        <td class="score">752</td>
+                        <td class="score">855</td>
+                        <td class="score">840</td>
+                    </tr>
+
+                    <tr>
+                        <td class="left">
+                            Score Change
+                            <span class="sub1">Since last refresh</span>
+                        </td>
+                        <td class="up1">↑ 1</td>
+                        <td>-</td>
+                        <td>-</td>
+                        <td>-</td>
+                    </tr>
+
+                    <tr>
+                        <td class="left4">On Time Payments</td>
+                        <td>-</td>
+                        <td>-</td>
+                        <td>-</td>
+                        <td>-</td>
+                    </tr>
+                </table>
+                <div class="bottom1">
+                    <div>
+                        <h2>Credit Score Insights</h2>
+                        <p>A deeper look into the factors behind your score</p>
+                    </div>
+
+                    <button class="btn5">
+                        <span class="lock1">🔒</span>
+                        Download Full Report →
+                    </button>
+                </div>
+            </div>
+        </div>
+        <li>
+            <h2>Why is CIBIL Score Important?</h2>
+        </li>
+        <li>
+            <p class="intro2">Your credit score is one of the first things that a Bank or NBFC will check while
+                evaluating your loan or credit card application. It shows lenders whether you are reliable or risky in
+                repayment of your EMIs or credit card outstanding.</p>
+        </li>
+        <div class="section5">
+            <div class="grid3">
+
+                <div class="card10">
+                    <div class="icon5">📊</div>
+                    <p>A good CIBIL score helps you access credit without much difficulty</p>
+                </div>
+
+                <div class="card10">
+                    <div class="icon5">📉</div>
+                    <p>Many lenders offer lower rate of interest on loans to applicants with a strong credit score</p>
+                </div>
+
+                <div class="card10">
+                    <div class="icon5">⏱️</div>
+                    <p>The higher your credit score, the more likely lenders are to approve you for new credit</p>
+                </div>
+
+                <div class="card10">
+                    <div class="icon5">📋</div>
+                    <p>Usually, a CIBIL Score of 760 and above is preferred by lenders for loan or credit card approval
+                    </p>
+                </div>
+
+                <div class="card10">
+                    <div class="icon5">🏦</div>
+                    <p>Many Banks and NBFCs also approve applications if the CIBIL score is between 700 and 760</p>
+                </div>
+
+                <div class="card10">
+                    <div class="icon5">⚠️</div>
+                    <p>If your credit score is low (below 700), most lenders are likely to reject your loan application.
+                    </p>
+                </div>
+
+            </div>
+        </div>
+        <li>
+            <p class="intro2">Note: Your credit score is not the only factor considered by lenders. They also check your
+                income, repayment capacity, debt-to-income ratio, employment history, profession, etc.</p>
+        </li>
+        <li>
+            <h2>Reasons for a low Credit Score</h2>
+        </li>
+        <li>
+            <p class="intro2">There can be several <a href="#">reasons for a low credit score</a>. Some of the main
+                factors that can
+                lower your CIBIL score are:</p>
+        </li>
+        <li class="criteria-item">
+            <span class="check-icon">✓</span>
+            <span class="criteria-text">
+                Missed or late payments of credit cards and loan EMIs
+            </span>
+        </li>
+        <li class="criteria-item">
+            <span class="check-icon">✓</span>
+            <span class="criteria-text">
+                Maxing out your credit limit or having a high credit utilisation ratio regularly
+            </span>
+        </li>
+        <li class="criteria-item">
+            <span class="check-icon">✓</span>
+            <span class="criteria-text">
+                Errors in your credit report/ CIBIL report can also lower your score significantly
+            </span>
+        </li>
+        <li class="criteria-item">
+            <span class="check-icon">✓</span>
+            <span class="criteria-text">
+                Frequent or multiple hard inquiries for credit can also damage your credit score
+            </span>
+        </li>
+        <li class="criteria-item">
+            <span class="check-icon">✓</span>
+            <span class="criteria-text">
+                Closing the oldest credit account if other credit accounts are relatively new (It reduces the age of the
+                credit history)
+            </span>
+        </li>
+        <li class="criteria-item">
+            <span class="check-icon">✓</span>
+            <span class="criteria-text">
+                <a href="#">Settling the loan or credit card</a> account instead of paying it in full and closing the
+                account
+            </span>
+        </li>
+        <li>
+            <h2>Credit Score Range and Meaning</h2>
+        </li>
+        <li>
+            <p class="intro2">Your credit score ranges from 300 to 900, where the score closer to 900 is considered
+                better for credit approval.</p>
+        </li>
+        <div class="container13">
+
+            <!-- Tabs -->
+            <div class="tabs1">
+                <div class="tab1 active" onclick="loadData('cibil')">CIBIL</div>
+                <div class="tab1" onclick="loadData('experian')">Experian</div>
+                <div class="tab1" onclick="loadData('crif')">CRIF</div>
+                <div class="tab1" onclick="loadData('equifax')">Equifax</div>
+            </div>
+
+            <!-- Score Range Bar -->
+            <div class="score1-bar">
+                <div class="score1-box new">NEW<br>NH/Ns</div>
+                <div class="score1-box poor">300-600</div>
+                <div class="score1-box avg">601-700</div>
+                <div class="score1-box good">701-760</div>
+                <div class="score1-box vgood">761-800</div>
+                <div class="score1-box excellent">801-900</div>
+            </div>
+
+            <!-- Table -->
+            <table id="creditTable">
+                <thead>
+                    <tr>
+                        <th>Score Range</th>
+                        <th>Creditworthiness</th>
+                        <th>Approval</th>
+                        <th>Offers</th>
+                        <th>Action</th>
+                    </tr>
+                </thead>
+                <tbody></tbody>
+            </table>
+
+        </div>
+
+        <script>
+
+            // Data for different bureaus
+            const data = {
+                cibil: [
+                    ["801-900", "✔", "✔", "✔", "✖"],
+                    ["761-800", "✔", "✔", "✔", "!"],
+                    ["701-760", "!", "!", "!", "!"],
+                    ["601-700", "✖", "!", "✖", "✔"],
+                    ["300-600", "✖", "✖", "✖", "✔"]
+                ],
+
+                experian: [
+                    ["850-900", "✔", "✔", "✔", "✔"],
+                    ["800-849", "✔", "✔", "✔", "!"],
+                    ["750-799", "✔", "!", "!", "!"],
+                    ["650-749", "!", "!", "✖", "✔"],
+                    ["300-649", "✖", "✖", "✖", "✔"]
+                ],
+
+                crif: [
+                    ["750-900", "✔", "✔", "✔", "✔"],
+                    ["700-749", "✔", "✔", "!", "!"],
+                    ["650-699", "!", "!", "!", "✔"],
+                    ["600-649", "✖", "!", "✖", "✔"],
+                    ["300-599", "✖", "✖", "✖", "✔"]
+                ],
+
+                equifax: [
+                    ["800-900", "✔", "✔", "✔", "✔"],
+                    ["740-799", "✔", "✔", "✔", "!"],
+                    ["670-739", "✔", "!", "!", "✔"],
+                    ["580-669", "!", "!", "✖", "✔"],
+                    ["300-579", "✖", "✖", "✖", "✔"]
+                ]
+            };
+
+            // Convert symbol to styled span
+            function format(val) {
+                if (val === "✔") return '<span class="yes">✔</span>';
+                if (val === "✖") return '<span class="no">✖</span>';
+                return '<span class="warn">!</span>';
+            }
+
+            // Load table data
+            function loadData(type) {
+                const tbody = document.querySelector("#creditTable tbody");
+                tbody.innerHTML = "";
+
+                data[type].forEach(row => {
+                    let tr = "<tr>";
+                    row.forEach(cell => {
+                        if (cell.includes("-")) {
+                            tr += `<td>${cell}</td>`;
+                        } else {
+                            tr += `<td>${format(cell)}</td>`;
+                        }
+                    });
+                    tr += "</tr>";
+                    tbody.innerHTML += tr;
+                });
+
+                // Active tab highlight
+                document.querySelectorAll(".tab1").forEach(tab => tab.classList.remove("active"));
+                event.target.classList.add("active");
+            }
+
+            // Default load
+            loadData("cibil");
+
+        </script>
+        <p class="intro2">
+            <strong>Creditworthiness-</strong> Do lenders consider you worthy of credit?
+
+            <br><strong>Chances of Approval-</strong> What are the chances of your application's approval by the lender
+
+            <br><strong>Pre-approved Offers-</strong> offered by lenders basis your credit profile before applying
+
+            <br><strong>Action Required-</strong> Whether you should take corrective actions to improve your credit
+            score
+            <br>✔ YES ✖ NO ! NEED ATTENTION
+        </p>
+        <li>
+            <h2>How is Credit Score Calculated?</h2>
+        </li>
+        <li>
+            <p>Your credit score depends on several factors that the credit bureaus take into consideration. These
+                factors depict your past credit behaviour and are checked by banks and NBFCs, every time you apply for a
+                fresh credit product.</p>
+        </li>
+        <div class="container4">
+
+
+            <!-- Left Expert Section -->
+            <div class="expert-card">
+                <h2>Factors that Affect your Credit Score</h2>
+                <li class="criteria-item">
+                    <span class="check-icon">✓</span>
+                    <span class="criteria-text">
+                        <strong>Repayment History (High Impact): </strong>Timely payments can boost your credit score
+                        and help improve it significantly, whereas defaulting on your EMIs or making late payments
+                        negatively affects your credit score.
+                    </span>
+                </li>
+                <li class="criteria-item">
+                    <span class="check-icon">✓</span>
+                    <span class="criteria-text">
+                        <strong>Duration of Credit History (Moderate Impact):</strong>The duration or age of your credit
+                        history also affects your credit score. Responsible repayment of EMIs and cards over the long
+                        run represents consistent good credit behaviour.
+                    </span>
+                </li>
+                <li class="criteria-item">
+                    <span class="check-icon">✓</span>
+                    <span class="criteria-text">
+                        <strong>Number of Hard Inquiries (Moderate Impact):</strong>Every time you apply for new
+                        credit,, the lender inquires about your credit score. Such inquiries are known as hard
+                        inquiries. Multiple hard inquiries in a short span may have a short-term negative impact on your
+                        credit score.
+                    </span>
+                </li>
+                <li class="criteria-item">
+                    <span class="check-icon">✓</span>
+                    <span class="criteria-text">
+                        <strong>Credit Utilisation (Moderate Impact):</strong>The ratio of the credit you spent against
+                        what’s available to you is known as the credit utilisation ratio. Experts recommend keeping it
+                        to less than 30%; though even a higher CUR has a low impact on your credit score as long as you
+                        pay your credit card bill on time.
+                    </span>
+                </li>
+                <li class="criteria-item">
+                    <span class="check-icon">✓</span>
+                    <span class="criteria-text">
+                        <strong>Credit Mix (Low Impact):</strong>Ability to handle different kinds of credit products
+                        like home loans, car loans (secured) and personal loans, credit cards (unsecured) has a positive
+                        impact on your credit profile.
+                    </span>
+                </li>
+                <button class="btn5">
+                    Get Free Credit Score →
+                </button>
+            </div>
+        </div>
+        <p>In addition to the 5 primary factors affecting your credit score, issues like credit report
+            errors, lack of credit history, or default by someone you’ve guaranteed a loan for can also have a mild
+            negative impact.</p>
+        <li>
+            <p><strong><br>Also Read:</strong> <a href="#">Common Myths about Credit Score</a></p>
+        </li>
+        <li>
+            <h2>Benefits of a Good Credit Score</h2>
+        </li>
+        <li>
+            <p class="intro2">Though your CIBIL score is not the only thing lenders assess while considering a loan or
+                credit card application, it is arguably one of the most important factors. <a href="#">Maintaining a
+                    good credit
+                    score</a> comes with several benefits that include:</p>
+        </li>
+        <div class="section6">
+            <div class="grid4">
+
+                <div class="card10">
+                    <h2>Higher chances of approval</h2>
+                    <div class="icon5">📊</div>
+
+
+                </div>
+
+                <div class="card10">
+                    <h2>Lower interest rates on loans</h2>
+                    <div class="icon5">📉</div>
+
+                </div>
+
+                <div class="card10">
+                    <h2>Access to pre-approved loans</h2>
+                    <div class="icon5">⏱️</div>
+
+                </div>
+
+                <div class="card10">
+                    <h2>Waiver of fees & charges</h2>
+                    <div class="icon5">📋</div>
+
+                </div>
+
+
+
+
+
+            </div>
+        </div>
+        <li>
+            <p class="intro2"><strong>Suggested Read:</strong> <a href="#">What Are the Benefits of a Good CIBIL
+                    Score?</a></p>
+        </li>
+        <li>
+        <li>
+            <h2>How to Increase Credit Score?</h2>
+        </li>
+        <li>
+            <p>If you <a href="#">have no credit history</a> or a low CIBIL score, it can make it challenging to get
+                your loan or credit
+                card applications approved. To improve your chances, follow these steps carefully and remain consistent
+                to gradually <a href="#">increase your CIBIL score.</a></p>
+        </li>
+        <div class="section7">
+            <div class="grid3">
+
+                <div class="card10">
+                    <div class="icon5">💰</div>
+                    <p>Pay all your loan EMIs and credit card bills on time</p>
+                </div>
+
+                <div class="card10">
+                    <div class="icon5">📄</div>
+                    <p>Repay due debt. Consider debt consolidation if unable to repay</p>
+                </div>
+
+                <div class="card10">
+                    <div class="icon5">📱</div>
+                    <p>Keep credit utilization ratio in check, ideally below 30%</p>
+                </div>
+
+                <div class="card10">
+                    <div class="icon5">✔️</div>
+                    <p>Get errors, if any, in your credit report rectified
+                    </p>
+                </div>
+
+                <div class="card10">
+                    <div class="icon5">👥</div>
+                    <p>Avoid applying for multiple loans or credit cards frequently</p>
+                </div>
+
+                <div class="card10">
+                    <div class="icon5">🏠</div>
+                    <p>Avoid closing your oldest credit card. A longer credit history helps build score
+                    </p>
+                </div>
+
+            </div>
+        </div>
+        <li>
+            <h2>Why Get your CIBIL Score from Paisabazaar?</h2>
+        </li>
+        <li>
+            <p>Apart from the fact that Paisabazaar offers CIBIL score for FREE with monthly updates, you can also
+                check, monitor, and compare your credit scores from other credit bureaus like Experian, CRIF High Mark,
+                and Equifax. Paisabazaar helps you check, track, and build your score by enabling you to:</p>
+        </li>
+        <div class="section8">
+            <div class="grid4">
+
+                <div class="card10">
+                    <div class="icon5">📊</div>
+                    <h3>Check your credit score seamlessly</h3>
+                    <p><br>
+                        Through Paisabazaar (web & <span class="highlight">app</span>), you can check and compare your
+                        credit score from multiple bureaus instantly and for absolutely free.
+                    </p>
+
+
+                </div>
+
+                <div class="card10">
+                    <div class="icon5">🎁</div>
+                    <h3>Get customised offers</h3>
+                    <p><br>
+                        Those with healthy credit profiles can also avail of the
+                        <span class="highlight">best pre-approved loan</span> and credit card offers from India's top
+                        banks and NBFCs.
+                    </p>
+
+                </div>
+
+                <div class="card10">
+                    <div class="icon5">📄</div>
+                    <h3>Chances of Approval feature</h3>
+                    <p><br>
+                        You will be matched with the most-suited lender and offer for personal loans, based on your
+                        credit score along with other eligibility factors.
+                    </p>
+
+                </div>
+
+                <div class="card10">
+                    <div class="icon5">🛠</div>
+                    <h3>Build or repair credit score</h3>
+                    <p><br>
+                        Paisabazaar offers personalized
+                        <span class="highlight">credit advisory</span> to help customers understand their credit report
+                        and improve their CIBIL score.
+                    </p>
+
+                </div>
+
+
+
+
+
+            </div>
+        </div>
+        <li>
+            <h2>Seamless Experience via Technology Innovations</h2>
+        </li>
+        <li>
+            <p>Paisabazaar is committed to helping consumers make informed credit decisions, enabling strong credit
+                health across segments. Some of our technology-led credit health initiatives include:</p>
+        </li>
+        <div class="section6">
+            <div class="grid5">
+
+                <div class="card10">
+                    <div class="icon6">
+                        <img src="https://cdn-icons-png.flaticon.com/512/3135/3135715.png" alt="">
+                    </div>
+                    <h3>PB Video Credit Report</h3>
+                    <p><br>Your Credit Report in a Personalized Video</p>
+                    <br><a href="#" class="btn">Try Now <span>➜</span></a>
+
+
+
+                </div>
+
+                <div class="card10">
+                    <div class="icon6">
+                        <img src="https://cdn-icons-png.flaticon.com/512/1828/1828884.png" alt="">
+                    </div>
+                    <h3>Score Predictor</h3>
+                    <p><br>See how various credit actions impact on your credit score</p>
+                    <br><a href="#" class="btn">Try Now <span>➜</span></a>
+
+                </div>
+
+                <div class="card10">
+                    <div class="icon6">
+                        <img src="https://cdn-icons-png.flaticon.com/512/4712/4712027.png" alt="">
+                    </div>
+                    <h3>PB Assist</h3>
+                    <p><br>Get Deep Insights from our AI Chatbot</p>
+                    <br><a href="#" class="btn">Try Now <span>➜</span></a>
+
+                </div>
+
+
+
+
+
+
+
+            </div>
+        </div>
+        <li>
+            <h2>Paisabazaar in News</h2>
+        </li>
+        <p><a href="#">Paisabazaar Launches PB VCR - India's First AI-based Video Credit Report - The Week<br>
+                <br>Average age of first-time borrowers drops by 21 years: Paisabazaar Report - Business Today<br>
+                <br>Paisabazaar Launches PB Assist, India's First AI-driven Credit Advisor - Business Standard<br>
+                <br>Paisabazaar launches ‘Score Predictor’ to help you understand credit behaviour - CNBC TV18<br>
+                <br>Paisabazaar Analysis Shows Young Indians Beginning Credit Journeys Early - ANI News</a></p>
+        <div class="review-card">
+
+            <div class="review-left">
+                <img src="https://via.placeholder.com/45" alt="Profile">
+
+                <div class="review-text">
+                    <span>Reviewed By</span>
+                    <strong>Shamik Ghosh</strong>
+                </div>
+            </div>
+
+            <img class="linkedin" src="https://cdn-icons-png.flaticon.com/512/174/174857.png" alt="LinkedIn">
+
+        </div>
+         <!-- SECTION 3 -->
+        <div class="section2">
+            <h2>Credit Card Articles</h2>
+
+            <div class="slider4-container">
+                <div class="slider4" id="slider5">
+
+                    <div class="card6">
+                        <div>
+                            <!-- SLIDE 1 -->
+                            <div class="slide1">
+                                <div class="article-card">
+                                    <img class="personal2"
+                                        src="./img/How to Generate your CIBIL Score for the First Time.jpg">
+                                    <div class="article-content">
+                                        <h4>How to Generate your CIBIL Score for the First Time</h4>
+                                        <div class="article-footer">
+                                            <div class="avatar"></div>
+                                            Paisabazaar | 09 Apr 2026
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card6">
+                        <div>
+                            <!-- SLIDE 2 -->
+                            <div class="slide1">
+                                <div class="article-card">
+                                    <img class="personal2"
+                                        src="./img/Does Checking CIBIL Multiple Times Affect the Score.webp">
+                                    <div class="article-content">
+                                        <h4>Does Checking CIBIL Multiple Times Affect the Score</h4>
+                                        <div class="article-footer">
+                                            <div class="avatar"></div>
+                                            Paisabazaar | 09 Apr 2026
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card6">
+                        <div>
+                            <!-- SLIDE 3 -->
+                            <div class="slide1">
+                                <div class="article-card">
+                                    <img class="personal2"
+                                        src="./img/What is a Credit Score.webp">
+                                    <div class="article-content">
+                                        <h4>What is a Credit Score?</h4>
+                                        <div class="article-footer">
+                                            <div class="avatar"></div>
+                                            Paisabazaar | 04 Apr 2026
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card6">
+                        <div>
+                            <!-- SLIDE 4 -->
+                            <div class="slide1">
+                                <div class="article-card">
+                                    <img class="personal2" src="./img/Should You Report a Relative's Death to Credit Bureaus in......webp">
+                                    <div class="article-content">
+                                        <h4>Should You Report a Relative's Death to Credit Bureaus in.....</h4>
+                                        <div class="article-footer">
+                                            <div class="avatar"></div>
+                                            Paisabazaar | 02 Feb 2025
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card6">
+                        <div>
+                            <!-- SLIDE 5 -->
+                            <div class="slide1">
+                                <div class="article-card">
+                                    <img class="personal2"
+                                        src="./img/Credit Score Not Mandatory for First-Time-Borrowers -.......png">
+                                    <div class="article-content">
+                                        <h4>Credit Score Not Mandatory for First-Time-Borrowers -......</h4>
+                                        <div class="article-footer">
+                                            <div class="avatar"></div>
+                                            Paisabazaar | 26 Aug 2025
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card6">
+                        <div>
+                            <!-- SLIDE 6 -->
+                            <div class="slide1">
+                                <div class="article-card">
+                                    <img class="personal2" src="./img/How to plan Repayments Smartly & Improve Credit Score.jpg">
+                                    <div class="article-content">
+                                        <h4>How to plan Repayments Smartly & Improve Credit Score?</h4>
+                                        <div class="article-footer">
+                                            <div class="avatar"></div>
+                                            Paisabazaar | 19 Aug 2025
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card6">
+                        <div>
+                            <!-- SLIDE 7 -->
+                            <div class="slide1">
+                                <div class="article-card">
+                                    <img class="personal2" src="./img/How Home Loans Impact Your Credit Score.webp">
+                                    <div class="article-content">
+                                        <h4>How Home Loans Impact Your Credit Score</h4>
+                                        <div class="article-footer">
+                                            <div class="avatar"></div>
+                                            Paisabazaar | 23 Jul 2025
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card6">
+                        <div>
+                            <!-- SLIDE 8 -->
+                            <div class="slide1">
+                                <div class="article-card">
+                                    <img class="personal2" src="./img/How Personal Loans Impact Your Credit Score.webp">
+                                    <div class="article-content">
+                                        <h4>How Personal Loans Impact Your Credit Score?
+                                        </h4>
+                                        <div class="article-footer">
+                                            <div class="avatar"></div>
+                                            Paisabazaar | 10 Jul 2025
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card6">
+                        <div>
+                            <!-- SLIDE 9 -->
+                            <div class="slide1">
+                                <div class="article-card">
+                                    <img class="personal2"
+                                        src="./img/Understanding Various Defaults Occurrring in a Credit Report.webp">
+                                    <div class="article-content">
+                                        <h4>Understanding Various Defaults Occurrring in a Credit Report</h4>
+                                        <div class="article-footer">
+                                            <div class="avatar"></div>
+                                            Paisabazaar | 04 Jul 2025
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card6">
+                        <div>
+                            <!-- SLIDE 10 -->
+                            <div class="slide1">
+                                <div class="article-card">
+                                    <img class="personal2"
+                                        src="./img/Paisabazaar Credit Premier League Contest - FAQs.jpg">
+                                    <div class="article-content">
+                                        <h4>Paisabazaar Credit Premier League Contest - FAQs</h4>
+                                        <div class="article-footer">
+                                            <div class="avatar"></div>
+                                            Paisabazaar | 04 Jul 2025
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+
+            <div class="nav2">
+                <button class="btn4" onclick="move('slider5', -1)">❮</button>
+                <button class="btn4" onclick="move('slider5', 1)">❯</button>
+            </div>
+        </div>
+        <button class="view-all2">View All Articles</button>
+        <div class="left1">
+                <div class="breadcrumb"><br><br>Home / Credit Cards / Check Your CIBIL Score for FREE</div>
+            </div>
+
+            <div class="faq-wrapper">
+        <h2 id="FAQ">FAQs</h2>
+
+        <div class="faq-box" id="faqBox">
+
+          <div class="faq-item">
+            <div class="faq-question">
+              How Can I Increase my CIBIL Score from 600 to 750?
+              <span class="faq-icon">+</span>
+            </div>
+            <div class="faq-answer">
+             A CIBIL score of 600 can primarily be due to a default or missed payment. Even NPAs can lower your credit score significantly. Start making timely repayments, pay off any dues, if present, do not conduct credit enquiries until score improves and keep overall credit utilisation low. A fall in score can also be due to inaccurate information in the credit report. If you find any such information in your credit report, raise a dispute immediately and get it resolved at the earliest.
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <div class="faq-question">
+              Can I get a loan Without CIBIL Score?
+              <span class="faq-icon">+</span>
+            </div>
+            <div class="faq-answer">
+              A good credit score is very important to get your application approved for loans such as a personal loan or a home loan. Applicants who do not have a credit score can also get their loan applications approved. However, new-to-credit applicants may not get the best loan offers and may have to avail loans at a higher cost of credit.
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <div class="faq-question">
+              Is 700 to 750 a Good CIBIL Score?
+              <span class="faq-icon">+</span>
+            </div>
+            <div class="faq-answer">
+             Most lenders consider a CIBIL score of 750 and above as a good score for loans and credit cards. You may lose out on numerous good credit card and loan offers if you have a CIBIL score between 700 and 750. Even if your loan application gets approved, you may end up paying a higher cost of credit.
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <div class="faq-question">
+              Is a Credit Score and CIBIL Score the Same?
+              <span class="faq-icon">+</span>
+            </div>
+            <div class="faq-answer">
+              A credit score is generated by a credit bureau that gives insights into the creditworthiness of the applicant. When this score is generated by TransUnion CIBIL, one of the most trusted credit bureaus in India, the credit score is known as the CIBIL score. Other bureaus providing credit scores are Experian, Equifax and CRIF High Mark.
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <div class="faq-question">
+              How to Check CIBIL Score with PAN Card?
+              <span class="faq-icon">+</span>
+            </div>
+            <div class="faq-answer">
+              Your PAN card is a mandatory document required to generate your credit score. To check CIBIL score with a PAN card at Paisabazaar, you have to fill in personal details such as name, gender, mobile number, etc., along with your PAN details to get the CIBIL score for free.
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <div class="faq-question">
+              How much CIBIL Score is required for a Credit Card?
+              <span class="faq-icon">+</span>
+            </div>
+            <div class="faq-answer">
+              The CIBIL score requirement for credit cards varies from one issuer to another. Where most issuers require a minimum CIBIL score of 750 for approval, some issuers may issue you a credit card even if you have a lower score. However, it is recommended that you maintain a CIBIL score as close to 900 as possible to be eligible for some of the best credit card offers.
+            </div>
+          </div>
+          <div class="faq-item">
+            <div class="faq-question">
+              Will Checking CIBIL Score Regularly Reduce My Score?
+              <span class="faq-icon">+</span>
+            </div>
+            <div class="faq-answer">
+              Checking your CIBIL score on your own is considered a soft enquiry. It is not mentioned in your credit report and thus has no impact on your score. When a lender fetches your CIBIL report to assess your credit application, your CIBIL score may witness a temporary downfall.
+            </div>
+          </div>
+          <div class="faq-item">
+            <div class="faq-question">
+              How Frequently is your CIBIL Score Recalculated?
+              <span class="faq-icon">+</span>
+            </div>
+            <div class="faq-answer">
+              Your CIBIL score is refreshed every 15 days. At Paisabazaar, you can check your latest credit score once every month.
+            </div>
+          </div>
+          <div class="faq-item">
+            <div class="faq-question">
+              How to Get a Credit Card without a CIBIL Score?
+              <span class="faq-icon">+</span>
+            </div>
+            <div class="faq-answer">
+              The best option to get a credit card without a CIBIL score is by applying for a secured credit card. This card is issued against a fixed deposit, and the lender does not check your credit score to approve your application.
+            </div>
+          </div>
+          <div class="faq-item">
+            <div class="faq-question">
+              How to Generate a CIBIL Score for the First Time?
+              <span class="faq-icon">+</span>
+            </div>
+            <div class="faq-answer">
+              Your CIBIL score is generated within three months of you starting to use a credit product. If you have availed a credit product recently, you can visit Paisabazaar, enter details and check your credit score for the first time for free. If the score is not generated, you can wait for the next cycle and check again.
+            </div>
+          </div>
+          <div class="faq-item">
+            <div class="faq-question">
+              What is the Importance of a Credit Score ?
+              <span class="faq-icon">+</span>
+            </div>
+            <div class="faq-answer">
+              Your credit score is the most important factor when determining your creditworthiness for a loan or credit card. A high score can make it easier for you to avail the credit product whereas a low score can cause rejection of your credit application.
+            </div>
+          </div>
+          <div class="faq-item">
+            <div class="faq-question">
+              Is a 900 Credit Score Possible?
+              <span class="faq-icon">+</span>
+            </div>
+            <div class="faq-answer">
+              A score closer to 900 means that you have handled credit very well in the past and you may be eligible for some of the best loan and credit card offers. It may be very difficult to reach a score of 900 but even if you get close to 900, you are considered as one of the best prospects for a lender.
+            </div>
+          </div>
+          <div class="faq-item">
+            <div class="faq-question">
+              Why My CIBIL Score Decreased without Any Reason?
+              <span class="faq-icon">+</span>
+            </div>
+            <div class="faq-answer">
+              There can be various reasons that impact your CIBIL score. Any small default can impact your score. To find out the actual reason for the decrease in your score, download the Credit Health Report from Paisabazaar and check all factors that impact your score.
+            </div>
+          </div>
+          <div class="faq-item">
+            <div class="faq-question">
+              Is 720 a Good CIBIL Score in India?
+              <span class="faq-icon">+</span>
+            </div>
+            <div class="faq-answer">
+              Any score above 750 is considered a good credit score. You may get some loans or credit cards approved at a score of 720 but you will definitely miss out on some of the best loan and credit card offers.
+            </div>
+          </div>
+          <div class="faq-item">
+            <div class="faq-question">
+              Does Closing a Credit Card Affect CIBIL Score?
+              <span class="faq-icon">+</span>
+            </div>
+            <div class="faq-answer">
+              Closing a credit card will lower your overall credit limit and increase your credit utilisation ratio which may somewhat impact your credit score. If you close your oldest active credit card, your age of credit history will also reduce which may impact your credit score as well.
+            </div>
+          </div>
+          <div class="faq-item">
+            <div class="faq-question">
+              How to Check CIBIL Score with an Aadhar Card?
+              <span class="faq-icon">+</span>
+            </div>
+            <div class="faq-answer">
+              You can provide your Aadhar Card as an ID proof while checking your CIBIL Score. It is not possible to check your credit score using an Aadhar Card only. You need to provide your PAN card to check your credit score from any credit bureau in India as your CIBIL Score is directly linked to your PAN card.
+            </div>
+          </div>
+          <div class="faq-item">
+            <div class="faq-question">
+              Why are Experian and CIBIL Score Different?
+              <span class="faq-icon">+</span>
+            </div>
+            <div class="faq-answer">
+              Both Experian and CIBIL use their own proprietary models to calculate the credit score for an applicant. Thus, the applicant may have different credit scores for two different credit bureaus.
+            </div>
+          </div>
+          
+          
+          
+
+        </div>
+
+        <div class="view-all1">
+          <button id="toggleFaq">View All FAQ's</button>
+        </div>
+
+      </div>
+
+      <script>
+        /* Accordion */
+        const faqItems = document.querySelectorAll(".faq-item");
+
+        faqItems.forEach(item => {
+          item.addEventListener("click", () => {
+            const open = item.classList.contains("active");
+
+            faqItems.forEach(i => {
+              i.classList.remove("active");
+              i.querySelector(".faq-icon").textContent = "+";
+            });
+
+            if (!open) {
+              item.classList.add("active");
+              item.querySelector(".faq-icon").textContent = "−";
+            }
+          });
+        });
+
+        /* View All toggle */
+        const btn = document.getElementById("toggleFaq");
+        const faqBox = document.getElementById("faqBox");
+
+        btn.addEventListener("click", () => {
+          faqBox.classList.toggle("expanded");
+
+          btn.textContent = faqBox.classList.contains("expanded")
+            ? "View Less FAQ's"
+            : "View All FAQ's";
+        });
+      </script>
+      
+
+
+
+
+
+        <!-- SECTION 3 -->
+        <div>
+            <section>
+                <h2>What our customers say</h2>
+
+
+
+                <div class="slider4-container">
+                    <div class="slider4" id="slider6">
+
+                        <div class="card6">
+                            <div>
+                                <!-- Slide 1 -->
+                                <div class="card3">
+                                    <h3>Excellent Support for CIBIL Report</h3>
+                                    <p><br>I would like to express my sincere appreciation to Mr. Vasu and the other representatives who assisted me today in downloading my CIBIL report. I had been facing challenges with this issue for the past two days, despite multiple attempts. However, Mr. Vasu and the supporting team were extremely patient, knowledgeable, and efficient, and they resolved the issue within just a few minutes. Their clarity of explanation and prompt assistance made the entire process smooth and hassle-free.</p>
+                                    <div class="stars">★★★★★</div>
+                                    <div class="user1">
+                                        <div class="avatar1">S</div>Sindhu Gowda
+
+
+                                    </div>
+                                    <p class="intro2"><br>16 Jan 2026</p>
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="card6">
+                            <div>
+                                <!-- Slide 1 -->
+                                <div class="card3">
+                                    <h3>Paisabazaar se premium credit card</h3>
+                                    <p><br>Score improve hone ke baad yahi se premium credit card apply kiya aur instantly approve ho gaya. Highly recommend!
+                                    </p>
+                                    <div class="stars">★★★★★</div>
+                                    <div class="user1">
+                                        <div class="avatar1">A</div>Alok Bansal
+
+
+                                    </div>
+                                    <p class="intro2"><br>19 Aug 2025</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card6">
+                            <div>
+                                <!-- Slide 1 -->
+                                <div class="card3">
+                                    <h3>Instant score in just seconds</h3>
+                                    <p><br>Sirf mobile number daala aur few seconds mein August ka updated credit score mil gaya. Paisabazaar ka process bahut fast hai.
+                                    </p>
+                                    <div class="stars">★★★★</div>
+                                    <div class="user1">
+                                        <div class="avatar1">V</div>Vivek Singh
+
+
+                                    </div>
+                                    <p class="intro2"><br>19 Aug 2025</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card6">
+                            <div>
+                                <!-- Slide 1 -->
+                                <div class="card3">
+                                    <h3>Error resolve karke score improve hua</h3>
+                                    <p><br>Cibil report mein ek galti thi jo mujhe samajh nahi aa rahi thi. Paisabazaar ne step-by-step help karke correct karwaya aur score improve ho gaya.
+                                    </p>
+                                    <div class="stars">★★★★★</div>
+                                    <div class="user1">
+                                        <div class="avatar1">A</div>Anjali Menon
+
+
+                                    </div>
+                                    <p class="intro2"><br>19 Aug 2025</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card6">
+                            <div>
+                                <!-- Slide 1 -->
+                                <div class="card3">
+                                    <h3>Marathi report bhi available hai</h3>
+                                    <p><br>I was surprised to see my Cibil report in Marathi. Very convenient to understand finance in your own language. Highly recommended!
+
+
+
+
+                                    </p>
+                                    <div class="stars">★★★★</div>
+                                    <div class="user1">
+                                        <div class="avatar1">H</div>Harish Patel
+
+
+                                    </div>
+                                    <p class="intro2"><br>18 Aug 2025</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card6">
+                            <div>
+                                <!-- Slide 1 -->
+                                <div class="card3">
+                                    <h3>Paisabazaar ne credit build karwaya</h3>
+                                    <p><br>Mera koi credit history nahi tha. Paisabazaar ne secured credit card suggest kiya aur 8 months mein mera score 750+ ho gaya.
+
+
+                                    </p>
+                                    <div class="stars">★★★★★</div>
+                                    <div class="user1">
+                                        <div class="avatar1">S</div>Sunita Sharma
+
+
+                                    </div>
+                                    <p class="intro2"><br>18 Aug 2025</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card6">
+                            <div>
+                                <!-- Slide 1 -->
+                                <div class="card3">
+                                    <h3>Pehli baar score check kiya free mein</h3>
+                                    <p><br>Pehli baar Paisabazaar se credit score check kiya, wo bhi free mein. Har month latest score update milta hai, kaafi helpful hai.
+
+
+                                    </p>
+                                    <div class="stars">★★★★</div>
+                                    <div class="user1">
+                                        <div class="avatar1">R</div>Rohit Choudhary
+
+
+                                    </div>
+                                    <p class="intro2"><br>18 Aug 2025</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card6">
+                            <div>
+                                <!-- Slide 1 -->
+                                <div class="card3">
+                                    <h3>Tamil report very useful</h3>
+                                    <p><br>I got my credit report in Tamil which made it easier to understand all details. Paisabazaar has a very smooth service.
+
+
+
+
+                                    </p>
+                                    <div class="stars">★★★★</div>
+                                    <div class="user1">
+                                        <div class="avatar1">P</div>P Balachandran
+
+
+                                    </div>
+                                    <p class="intro2"><br>13 Aug 2025</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card6">
+                            <div>
+                                <!-- Slide 1 -->
+                                <div class="card3">
+                                    <h3>Credit score badha aur loan bhi mil gaya</h3>
+                                    <p><br>Paisabazaar ne mere credit report ke errors rectify karne mein help kiya. Score badhne ke baad yahi se personal loan apply kiya aur approve ho gaya.
+
+
+
+                                    </p>
+                                    <div class="stars">★★★★</div>
+                                    <div class="user1">
+                                        <div class="avatar1">M</div>Manish Verma
+
+
+                                    </div>
+                                    <p class="intro2"><br>13 Aug 2025</p>
+                                </div>
+                            </div>
+                        </div>
+
+
+                    </div>
+                </div>
+
+
+                <div class="nav2">
+                    <button class="btn4" onclick="move('slider6', -1)">❮</button>
+                    <button class="btn4" onclick="move('slider6', 1)">❯</button>
+                </div>
+                <button class="view-all3">View All Testimonials</button>
+            </section>
+        </div>
+
+
+        <script>
+            const positions = {
+                slider1: 0,
+                slider2: 0,
+                slider3: 0,
+                slider4: 0,
+                slider5: 0,
+                slider6: 0
+            };
+
+            function move(sliderId, step) {
+                const slider = document.getElementById(sliderId);
+                const cards = slider.querySelectorAll(".card6");
+
+                const visible = 2;
+                const total = cards.length;
+
+                positions[sliderId] += step;
+
+                if (positions[sliderId] < 0) positions[sliderId] = 0;
+                if (positions[sliderId] > total - visible) {
+                    positions[sliderId] = total - visible;
+                }
+
+                slider.style.transform =
+                    `translateX(-${positions[sliderId] * (100 / visible)}%)`;
+            }
+        </script>
+        <div class="container6">
+
+            <!-- Author Section -->
+            <div class="author-wrap">
+
+                <div class="author-card">
+                    <img src="https://i.pravatar.cc/100?img=32" alt="">
+                    <div class="author-info">
+                        <small>Written By</small>
+                        <strong>Shruti Sharma</strong>
+                    </div>
+                    <a href="#" class="linkedin1">in</a>
+                </div>
+
+                <div class="author-card">
+                    <img src="https://i.pravatar.cc/100?img=12" alt="">
+                    <div class="author-info">
+                        <small>Reviewed By</small>
+                        <strong>Shamik Ghosh</strong>
+                    </div>
+                    <a href="#" class="linkedin1">in</a>
+                </div>
+
+            </div>
+
+            <!-- Disclaimer -->
+            <div class="accordion">
+                <div class="accordion-header" onclick="toggleDisclaimer()">
+                    <h3>Disclaimer</h3>
+                    <span id="icon">+</span>
+                </div>
+                <div class="accordion-content" id="content">
+                    <p>
+                        Paisabazaar is a loan aggregator and is authorized to provide services on behalf of its
+                        partners<br>
+                        <br>*Applicable for selected customers
+                    </p>
+                </div>
+            </div>
+
+        </div>
+
+        <script>
+            function toggleDisclaimer() {
+                const content = document.getElementById("content");
+                const icon = document.getElementById("icon");
+
+                if (content.style.display === "block") {
+                    content.style.display = "none";
+                    icon.textContent = "+";
+                } else {
+                    content.style.display = "block";
+                    icon.textContent = "−";
+                }
+            }
+        </script>
+
+
+
+
+
+
+
+
+
+    </div>
+</body>

@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Loans</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <!-- Top Utility Bar -->
+        <div class="top-bar">
+            <div class="container_min">
+                <a href="#">Talk to Expert</a>
+                <a href="#">Get The App</a>
+            </div>
+        </div>
+    </header>
+    <div class="container14">
+        <h1>Up to <span>₹50 Lakhs</span> personal loan <span>starting @ 9.98% per annum</span></h1>
+
+        <div class="badges">
+            <div class="badge2">💰 Get Cashback of ₹1000</div>
+            <div class="badge2 orange">⚡ Quick Disbursal & Low EMI</div>
+        </div>
+
+        <div class="form1-box">
+
+            <!-- Login Form -->
+            <div id="loginForm">
+                <input type="text" placeholder=" Enter Your Name(as per PAN Card)" required>
+                <input type="text" class="mobile-input" placeholder=" Enter Mobile Number">
+                <select id="countryCode">
+                    <option value="+93">Afghanistan (+93)</option>
+                    <option value="+355">Albania (+355)</option>
+                    <option value="+213">Algeria (+213)</option>
+                    <option value="+376">Andorra (+376)</option>
+                    <option value="+244">Angola (+244)</option>
+                    <option value="+54">Argentina (+54)</option>
+                    <option value="+374">Armenia (+374)</option>
+                    <option value="+61">Australia (+61)</option>
+                    <option value="+43">Austria (+43)</option>
+                    <option value="+994">Azerbaijan (+994)</option>
+
+                    <option value="+973">Bahrain (+973)</option>
+                    <option value="+880">Bangladesh (+880)</option>
+                    <option value="+375">Belarus (+375)</option>
+                    <option value="+32">Belgium (+32)</option>
+                    <option value="+975">Bhutan (+975)</option>
+                    <option value="+591">Bolivia (+591)</option>
+                    <option value="+387">Bosnia (+387)</option>
+                    <option value="+267">Botswana (+267)</option>
+                    <option value="+55">Brazil (+55)</option>
+                    <option value="+673">Brunei (+673)</option>
+                    <option value="+359">Bulgaria (+359)</option>
+
+                    <option value="+855">Cambodia (+855)</option>
+                    <option value="+237">Cameroon (+237)</option>
+                    <option value="+1">Canada (+1)</option>
+                    <option value="+56">Chile (+56)</option>
+                    <option value="+86">China (+86)</option>
+                    <option value="+57">Colombia (+57)</option>
+                    <option value="+506">Costa Rica (+506)</option>
+                    <option value="+385">Croatia (+385)</option>
+                    <option value="+53">Cuba (+53)</option>
+                    <option value="+420">Czech Republic (+420)</option>
+
+                    <option value="+45">Denmark (+45)</option>
+                    <option value="+20">Egypt (+20)</option>
+                    <option value="+372">Estonia (+372)</option>
+                    <option value="+251">Ethiopia (+251)</option>
+
+                    <option value="+358">Finland (+358)</option>
+                    <option value="+33">France (+33)</option>
+
+                    <option value="+49">Germany (+49)</option>
+                    <option value="+30">Greece (+30)</option>
+
+                    <option value="+852">Hong Kong (+852)</option>
+                    <option value="+36">Hungary (+36)</option>
+
+                    <option value="+91">India (+91)</option>
+                    <option value="+62">Indonesia (+62)</option>
+                    <option value="+98">Iran (+98)</option>
+                    <option value="+964">Iraq (+964)</option>
+                    <option value="+353">Ireland (+353)</option>
+                    <option value="+972">Israel (+972)</option>
+                    <option value="+39">Italy (+39)</option>
+
+                    <option value="+81">Japan (+81)</option>
+                    <option value="+962">Jordan (+962)</option>
+
+                    <option value="+7">Kazakhstan (+7)</option>
+                    <option value="+254">Kenya (+254)</option>
+                    <option value="+965">Kuwait (+965)</option>
+
+                    <option value="+977">Nepal (+977)</option>
+                    <option value="+31">Netherlands (+31)</option>
+                    <option value="+64">New Zealand (+64)</option>
+                    <option value="+234">Nigeria (+234)</option>
+                    <option value="+47">Norway (+47)</option>
+
+                    <option value="+968">Oman (+968)</option>
+
+                    <option value="+92">Pakistan (+92)</option>
+                    <option value="+63">Philippines (+63)</option>
+                    <option value="+48">Poland (+48)</option>
+                    <option value="+351">Portugal (+351)</option>
+
+                    <option value="+974">Qatar (+974)</option>
+
+                    <option value="+40">Romania (+40)</option>
+                    <option value="+7">Russia (+7)</option>
+
+                    <option value="+966">Saudi Arabia (+966)</option>
+                    <option value="+65">Singapore (+65)</option>
+                    <option value="+27">South Africa (+27)</option>
+                    <option value="+82">South Korea (+82)</option>
+                    <option value="+34">Spain (+34)</option>
+                    <option value="+94">Sri Lanka (+94)</option>
+                    <option value="+46">Sweden (+46)</option>
+                    <option value="+41">Switzerland (+41)</option>
+
+                    <option value="+66">Thailand (+66)</option>
+                    <option value="+90">Turkey (+90)</option>
+
+                    <option value="+971">UAE (+971)</option>
+                    <option value="+44">UK (+44)</option>
+                    <option value="+1">USA (+1)</option>
+
+                    <option value="+84">Vietnam (+84)</option>
+                </select>
+
+                <button class="otp-btn">Proceed</button>
+                <div class="toggle-btn" onclick="showRegister()">Don't have an account? Register</div>
+            </div>
+            <div class="footer3">
+                By clicking on proceed, you have read and agree to the
+                <span>Credit Report Terms of Use, Terms of Use & Privacy Policy</span>
+            </div>
+
+
+
+
+            <!-- Register Form -->
+            <div id="registerForm" class="hidden">
+                <input type="text" placeholder="Full Name" required>
+                <input type="email" placeholder="Email" required>
+                <input type="password" placeholder="Password" required>
+                <button class="otp-btn">Register</button>
+                <div class="toggle-btn" onclick="showLogin()">Already have an account? Login</div>
+            </div>
+            <script>
+                function showRegister() {
+                    document.getElementById("loginForm").classList.add("hidden");
+                    document.getElementById("registerForm").classList.remove("hidden");
+                }
+
+                function showLogin() {
+                    document.getElementById("registerForm").classList.add("hidden");
+                    document.getElementById("loginForm").classList.remove("hidden");
+                }
+            </script>
+
+
+
+        </div>
+    </div>
+
+    <div class="info1">
+        <div class="info1-content">
+            <div class="info1-left">
+                Paisabazaar is one of <strong>India's leading digital</strong> credit platforms.
+            </div>
+
+            <div class="stars1">★★★★☆</div>
+
+            <div class="stats1">
+                <div class="stat1">
+                    <strong>6 Crore</strong><br>Registered Consumers
+                </div>
+                <div class="stat1">
+                    <strong>30+</strong><br>Lending Partners
+                </div>
+                <div class="stat1">
+                    <strong>₹65k Crore+</strong><br>Loans Disbursed
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="disclaimer1">
+        <div class="disclaimer1-header" onclick="toggleDisclaimer()">
+            <span>Disclaimers+</span>
+            <span>▼</span>
+        </div>
+        <div class="disclaimer1-content" id="disc">
+            <li>
+                <h5>Personal Loan Features & Benefits</h5>
+            </li>
+            <li>
+                <p class="intro2">
+                    ✓ No end-usage restriction
+                    <br>✓ Loan amount of up to Rs. 40 lakh, which can exceed depending on lenders' discretion
+                    <br>✓ Repayment tenure usually ranges between 1 year and 5 years, with some banks/NBFCs offering
+                    longer
+                    tenures
+                    <br>✓ Minimal documentation
+                    <br>✓ The interest rates usually start from 10.50% p.a. with some PSU banks offering lower interest
+                    rates
+                    <br>✓ Quick disbursals
+                    <br>✓Applicants having excellent credit profiles may also qualify for preapproved/prequalified
+                    personal
+                    loans with instant disbursal
+                </p>
+            </li>
+            <li>
+                <h5>Personal Loan Eligibility</h5>
+            </li>
+            <li>
+                <p class="intro2">
+                    <br>Age: 18 - 60 years
+                    <br>Income: Minimum Rs 15,000/month for salaried applicants
+                    <br>Credit Score: Preferably 750 and above as having higher credit scores increase the chances of
+                    your
+                    loan approval at lower interest rates<br>
+                    <br>Address: Paisabazaar, 135 P, Sector 44, Gurugram (HR) 122001<br>
+
+                    <br>Disclaimer:
+
+                    <br>Paisabazaar is a loan aggregator and is authorized to provide services on behalf of its
+                    partners.<br>
+
+                    <br>The APR (Annual Percentage Rate) of a personal loan is its annualised cost of borrowing, which
+                    includes the interest rate as well as the processing fees, documentation fees and other fees charged
+                    during the loan origination. The APR is expressed in the form of a percentage and thus, allows
+                    personal loan applicants to detect personal loan schemes offered at lower interest rates but with
+                    higher processing fees and/or other charges.
+
+                    <br>The APR of personal loans usually ranges between 11.29% to 35%. For example, assume that you
+                    have
+                    availed a personal loan of Rs. 5 lakhs @ 10.50% p.a. with a repayment tenure of 5 years. The
+                    processing fee charged for this loan is 1.5% of the loan amount, which amounts to Rs 7,500.
+                    Therefore, the total borrowing cost of your personal loan will be Rs 1,52,317 and its APR will be
+                    11.16%.
+                </p>
+            </li>
+        </div>
+    </div>
+
+    <script>
+        function toggleDisclaimer() {
+            const content = document.getElementById("disc");
+            content.style.display = content.style.display === "block" ? "none" : "block";
+        }
+    </script>
+
+</body>
+
+</html>
